@@ -42,7 +42,7 @@ function playGame() {
     playRound(getHumanChoice(), getComputerChoice());
   }
   console.log(
-    `Your score is: ${humanScore}. The computer's score is: ${computerScore}. ${humanScore > computerScore ? "You won!" : humanScore === computerScore ? "It's a tie" : "Sorry, you lost!"}`,
+    `Your score is: ${humanScore}. The computer's score is: ${computerScore}. ${humanScore > computerScore ? "You won!" : "Sorry, you lost!"}`,
   );
 }
 
